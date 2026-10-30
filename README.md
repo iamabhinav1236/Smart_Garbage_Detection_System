@@ -217,7 +217,7 @@ To enable automatic alerts sent to caretaker inboxes:
 - **Institution**: GL Bajaj Institute of Technology & Management
 - **Department**: Department of Computer Science & Engineering (AIML)
 - **Session**: 2025-2026
-- **Project Supervisor**: Dr. Santosh Srivastava
+- **Project Supervisor**: Dr. Santosh Kumar Srivastava
 - **Project Team**:
   - Abhinav Srivastava (2501921530013)
   - Abhinav Singh (2501921530012)
@@ -225,4 +225,3 @@ To enable automatic alerts sent to caretaker inboxes:
   - Abhishek Kumar Gupta (2501921530016)
 
 ---
-Licensed under MIT. Production-ready for campus waste management and academic demonstration.
