@@ -1,0 +1,29 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.sqlite3
+*.db
+.env
+
+# Node / Vite
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Logs and Snapshots (keep folder structure)
+data/logs/*
+!data/logs/.gitkeep
+data/snapshots/*
+!data/snapshots/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp

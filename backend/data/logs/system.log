@@ -1,0 +1,28 @@
+[2026-10-08 20:38:34] [INFO] [SmartGarbageSystem] Bin TEST-BIN-01 state changed NORMAL -> CRITICAL: Threshold breached: 88.0% >= 85.0%
+[2026-10-08 20:38:34] [WARNING] [SmartGarbageSystem] SMTP credentials not fully configured. Email simulated for caretaker@campus.org: URGENT: Bin TEST-BIN-01 Reached 88.0% Capacity
+[2026-10-08 20:38:34] [INFO] [SmartGarbageSystem] Bin TEST-BIN-01 still not emptied after 15m. Triggering recurring 15-minute alert.
+[2026-10-08 20:38:34] [WARNING] [SmartGarbageSystem] SMTP credentials not fully configured. Email simulated for caretaker@campus.org: [15-MIN RECURRING REMINDER] URGENT: Bin TEST-BIN-01 Reached 89.0% Capacity
+[2026-10-08 20:38:34] [INFO] [SmartGarbageSystem] Bin TEST-BIN-01 has been EMPTIED (Fill: 15.0%, Floor litter: False). Alert state reset to NORMAL. Recurring mail transfer stopped.
+[2026-10-08 20:38:34] [INFO] [SmartGarbageSystem] Bin TEST-BIN-01 state changed NORMAL -> CRITICAL: Garbage overflow / floor litter detected around bin (Fill: 45.0%)
+[2026-10-08 20:38:34] [WARNING] [SmartGarbageSystem] SMTP credentials not fully configured. Email simulated for caretaker@campus.org: URGENT: Bin TEST-BIN-01 OVERFLOW DETECTED (Garbage Outside Bin)
+[2026-10-08 20:38:34] [INFO] [SmartGarbageSystem] Bin TEST-BIN-01 has been EMPTIED (Fill: 45.0%, Floor litter: False). Alert state reset to NORMAL. Recurring mail transfer stopped.
+[2026-10-08 20:52:34] [INFO] [SmartGarbageSystem] Bin TEST-BIN-01 state changed NORMAL -> CRITICAL: Threshold breached: 88.0% >= 85.0%
+[2026-10-08 20:52:34] [WARNING] [SmartGarbageSystem] SMTP credentials not fully configured. Email simulated for caretaker@campus.org: URGENT: Bin TEST-BIN-01 Reached 88.0% Fill Level
+[2026-10-08 20:52:34] [INFO] [SmartGarbageSystem] Bin TEST-BIN-01 still not emptied after 15m. Triggering recurring 15-minute alert.
+[2026-10-08 20:52:34] [WARNING] [SmartGarbageSystem] SMTP credentials not fully configured. Email simulated for caretaker@campus.org: [15-MIN RECURRING REMINDER] URGENT: Bin TEST-BIN-01 Reached 89.0% Fill Level
+[2026-10-08 20:52:34] [INFO] [SmartGarbageSystem] Bin TEST-BIN-01 has been EMPTIED (Fill: 15.0%, Floor litter: False). Alert state reset to NORMAL. Recurring mail transfer stopped.
+[2026-10-08 20:52:34] [INFO] [SmartGarbageSystem] Bin TEST-BIN-01 state changed NORMAL -> CRITICAL: Garbage overflow / floor litter detected around bin (Fill: 45.0%)
+[2026-10-08 20:52:34] [WARNING] [SmartGarbageSystem] SMTP credentials not fully configured. Email simulated for caretaker@campus.org: URGENT: Bin TEST-BIN-01 OVERFLOW DETECTED (Garbage Outside Bin)
+[2026-10-08 20:52:34] [INFO] [SmartGarbageSystem] Bin TEST-BIN-01 has been EMPTIED (Fill: 45.0%, Floor litter: False). Alert state reset to NORMAL. Recurring mail transfer stopped.
+[2026-10-14 23:49:23] [WARNING] [SmartGarbageSystem] Failed to load via ONNXRuntime: No module named 'onnxruntime'. Falling back to cv2.dnn
+[2026-10-14 23:49:23] [INFO] [SmartGarbageSystem] YOLOv8 ONNX loaded via cv2.dnn from C:\Users\Lenovo\Downloads\smart-garbage-system5\smart-garbage-system\models\yolov8n.onnx
+[2026-10-14 23:49:34] [WARNING] [SmartGarbageSystem] Failed to load via ONNXRuntime: No module named 'onnxruntime'. Falling back to cv2.dnn
+[2026-10-14 23:49:34] [INFO] [SmartGarbageSystem] YOLOv8 ONNX loaded via cv2.dnn from C:\Users\Lenovo\Downloads\smart-garbage-system5\smart-garbage-system\models\yolov8n.onnx
+[2026-10-14 23:49:34] [WARNING] [SmartGarbageSystem] Failed to load via ONNXRuntime: No module named 'onnxruntime'. Falling back to cv2.dnn
+[2026-10-14 23:49:35] [INFO] [SmartGarbageSystem] YOLOv8 ONNX loaded via cv2.dnn from C:\Users\Lenovo\Downloads\smart-garbage-system5\smart-garbage-system\models\yolov8n.onnx
+[2026-10-14 23:49:35] [INFO] [SmartGarbageSystem] Started monitoring stream worker for bin BIN-001 (ID: 1)
+[2026-10-14 23:49:41] [INFO] [SmartGarbageSystem] Empty-bin reference loaded for BIN-001
+[2026-10-14 23:49:45] [INFO] [SmartGarbageSystem] Bin BIN-001 state changed NORMAL -> CRITICAL: Garbage overflow / floor litter detected around bin (Fill: 29.5%)
+[2026-10-14 23:49:45] [WARNING] [SmartGarbageSystem] SMTP credentials not fully configured. Email simulated for caretaker@campus.org: URGENT: Bin BIN-001 OVERFLOW DETECTED (Garbage Outside Bin)
+[2026-10-14 23:49:51] [INFO] [SmartGarbageSystem] Stream worker terminated for BIN-001
+[2026-10-14 23:49:51] [INFO] [SmartGarbageSystem] Stopped monitoring stream worker for bin BIN-001

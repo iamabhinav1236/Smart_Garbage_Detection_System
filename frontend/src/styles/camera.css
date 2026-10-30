@@ -1,0 +1,48 @@
+/* Camera details & detailed stream viewer */
+.camera-detail-viewport {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  background: var(--bg-media);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-subtle);
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+}
+
+.camera-stream-large {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.camera-hud-badge {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  background: rgba(41, 18, 4, 0.82);
+  backdrop-filter: blur(6px);
+  padding: 6px 14px;
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(255, 204, 78, 0.3);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 12px;
+  color: #fff;
+}
+
+/* Override test panel */
+.test-override-panel {
+  background: var(--bg-surface);
+  border: 1px dashed var(--warning-border);
+  border-radius: var(--radius-md);
+  padding: 16px;
+  margin-top: 16px;
+}
+.test-override-panel h5 {
+  font-size: 13px;
+  color: var(--warning);
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}

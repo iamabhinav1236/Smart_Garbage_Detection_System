@@ -1,0 +1,86 @@
+:root {
+  /* Color Palette - GL Bajaj Institute of Technology & Management (glbitm.org)
+     Deep maroon-brown + gold on warm cream, matching the college website and logo. */
+  --brand-maroon: #592106;
+  --brand-maroon-dark: #472510;
+  --brand-maroon-deep: #411b04;
+  --brand-brown: #742600;
+  --brand-copper: #a95024;
+  --brand-gold: #f0b100;
+  --brand-gold-light: #ffcc4e;
+  --brand-cream: #faf6eb;
+
+  --bg-primary: #faf6eb;          /* page background (cream) */
+  --bg-secondary: #f5eedc;        /* toolbars, insets */
+  --bg-surface: #ffffff;          /* cards */
+  --bg-surface-elevated: #fdf9f0; /* raised controls */
+  --bg-glass: rgba(255, 255, 255, 0.85);
+  --bg-hover: rgba(89, 33, 6, 0.06);
+  --bg-media: #1a0d05;            /* behind camera video */
+  --overlay: rgba(41, 18, 4, 0.55);
+
+  /* Brand Accents */
+  --primary: #592106;             /* GL Bajaj maroon */
+  --primary-hover: #411b04;
+  --primary-glow: rgba(89, 33, 6, 0.14);
+
+  --secondary: #f0b100;           /* GL Bajaj gold */
+  --secondary-hover: #d99e00;
+  --secondary-glow: rgba(240, 177, 0, 0.25);
+
+  --accent-cyan: #a95024;         /* copper accent (replaces cyan) */
+
+  /* Sidebar (maroon, like the college site's navigation) */
+  --sidebar-bg: linear-gradient(180deg, #592106 0%, #411b04 100%);
+  --sidebar-text: #f3e6d3;
+  --sidebar-text-muted: #c9ae93;
+  --sidebar-hover: rgba(255, 204, 78, 0.12);
+  --sidebar-active-bg: rgba(255, 204, 78, 0.18);
+  --sidebar-border: rgba(255, 204, 78, 0.18);
+
+  /* Status Colors (kept semantic: green = OK, amber = warning, red = critical) */
+  --success: #15803d;
+  --success-bg: rgba(21, 128, 61, 0.1);
+  --success-border: rgba(21, 128, 61, 0.35);
+
+  --warning: #b45309;
+  --warning-bg: rgba(217, 119, 6, 0.12);
+  --warning-border: rgba(217, 119, 6, 0.4);
+
+  --danger: #b91c1c;
+  --danger-bg: rgba(220, 38, 38, 0.09);
+  --danger-border: rgba(220, 38, 38, 0.38);
+  --danger-glow: rgba(220, 38, 38, 0.25);
+
+  /* Typography */
+  --font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --text-primary: #2b1608;
+  --text-secondary: #6b4f3a;
+  --text-muted: #957a62;
+  --text-inverse: #ffffff;
+
+  /* Borders & Dividers */
+  --border-subtle: #e8dcc4;
+  --border-strong: #d6c3a0;
+  --border-focus: #f0b100;
+  --divider: rgba(89, 33, 6, 0.08);
+
+  /* Layout */
+  --sidebar-width: 260px;
+  --sidebar-collapsed-width: 80px;
+  --navbar-height: 72px;
+
+  /* Transitions & Shadows */
+  --transition-fast: 0.18s ease;
+  --transition-normal: 0.28s ease;
+  --shadow-sm: 0 1px 3px rgba(71, 37, 16, 0.08), 0 1px 2px rgba(71, 37, 16, 0.05);
+  --shadow-md: 0 6px 16px rgba(71, 37, 16, 0.1);
+  --shadow-lg: 0 16px 40px rgba(71, 37, 16, 0.18);
+  --shadow-glow-red: 0 0 0 3px rgba(220, 38, 38, 0.18), 0 6px 18px rgba(220, 38, 38, 0.15);
+  --shadow-glow-green: 0 0 0 3px rgba(21, 128, 61, 0.15);
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-full: 9999px;
+}
